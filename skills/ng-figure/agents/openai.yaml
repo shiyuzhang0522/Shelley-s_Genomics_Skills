@@ -1,0 +1,14 @@
+interface:
+  display_name: NG_Figure.Skill
+  short_description: Nature Genetics figures with editable PDF export
+  default_prompt: Use $ng-figure to create or refine a Nature Genetics-compatible
+    figure and its reproducible R or Python script.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
