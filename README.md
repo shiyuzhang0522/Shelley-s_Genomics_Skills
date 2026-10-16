@@ -21,3 +21,19 @@ The self-contained skill folder is `skills/ng-figure/`. Preserve its relative fo
 ## Validation
 
 Created 16 October 2026. Skill structure, Python PDF export, error detection, and a toy forest plot were tested. R recipes were reviewed but not executed; native Illustrator and macOS Preview checks were unavailable. Individual figures still require scientific and visual review. Official guidance and its verification date are recorded inside the skill.
+
+## Contributors
+
+- **Shelley (Shiyu Zhang; [@shiyuzhang0522](https://github.com/shiyuzhang0522))** — repository owner and scientific lead; defines requirements, reviews outputs, and sets research priorities.
+- **Morgan (OpenAI ChatGPT)** — AI assistant supporting skill design, documentation, code development, and validation at Shelley's direction. This acknowledgment does not represent a separate GitHub account or human contributor.
+
+## Ongoing maintenance
+
+Use this repository to version future genomics skills and improvements. Shelley retains ownership and directs the work; Morgan can help implement requested updates through the connected tools.
+
+For each update:
+
+1. Read the current repository version and agree on the intended behavior from the task context.
+2. Update the skill and its relevant scripts or references together.
+3. Run the checks appropriate to the change and document any untested behavior.
+4. Commit a concise explanation of the change. When the skill is also installed in ChatGPT, keep that installed version and this repository aligned.
