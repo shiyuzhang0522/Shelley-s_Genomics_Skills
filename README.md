@@ -1,6 +1,6 @@
 # Shelley's Genomics Skills
 
-Reusable skills for genomics research, co-created by **Shelley** and **Morgan (OpenAI ChatGPT)**.
+Reusable skills for genomics research, co-created by **Shelley👩‍💻** and **Morgan🤖**.
 
 ## 1️⃣ NG_Figure.Skill
 
