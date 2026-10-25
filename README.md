@@ -12,7 +12,11 @@ Reusable skills for genomics research, co-created by **Shelley👩‍💻** and 
 
 [View skill →](skills/ng-figure/SKILL.md)
 
-## 2️⃣ SpaCET to gsMap
+## Spatial_Transcriptomic_Skills
+
+Skills for spatial transcriptomics and complementary single-cell analyses.
+
+### 2️⃣ SpaCET to gsMap
 
 **Aim:** Estimate malignant, immune, and stromal fractions in tumor spatial transcriptomics, then prepare aligned AnnData inputs for gsMap while preserving raw counts and continuous fractions.
 
@@ -22,7 +26,7 @@ Reusable skills for genomics research, co-created by **Shelley👩‍💻** and 
 
 [View skill →](skills/spacet/SKILL.md)
 
-## 3️⃣ gsMap
+### 3️⃣ gsMap
 
 **Aim:** Integrate spatial gene expression with GWAS summary statistics to identify trait-associated spatial patterns and regions.
 
@@ -31,6 +35,26 @@ Reusable skills for genomics research, co-created by **Shelley👩‍💻** and 
 > Use $gsmap to check my inputs and run a spatial GWAS enrichment analysis.
 
 [View skill →](skills/gsmap/SKILL.md)
+
+### 4️⃣ CellChat
+
+**Aim:** Infer and compare cell–cell communication networks from ligand–receptor expression, including spatial constraints, signaling pathways, and sender/receiver roles.
+
+**Usage:** Provide normalized expression, cell-type annotations, and sample metadata; include calibrated coordinates for spatial analysis.
+
+> Use $cellchat to infer communication networks in my annotated spatial data and compare samples with consistent settings.
+
+[View skill →](skills/cellchat/SKILL.md)
+
+### 5️⃣ NicheNet
+
+**Aim:** Prioritize ligands that may explain a receiver-cell gene-expression program and identify their predicted target genes.
+
+**Usage:** Provide sender/receiver annotations, normalized expression, and a receiver gene set with a suitable background. For spatial data, define plausible sender neighborhoods.
+
+> Use $nichenetr to rank candidate ligands explaining this receiver-cell gene program and extract ligand–target links.
+
+[View skill →](skills/nichenetr/SKILL.md)
 
 ---
 

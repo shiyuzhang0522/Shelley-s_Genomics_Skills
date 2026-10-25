@@ -1,0 +1,14 @@
+interface:
+  display_name: CellChat
+  short_description: Infer and compare cell communication with CellChat
+  default_prompt: Use $cellchat to plan and run a version-aware cell communication
+    analysis on my single-cell or spatial data.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: NicheNet
+  short_description: Infer ligands driving receiver-cell gene programs
+  default_prompt: Use $nichenetr to plan and run ligand activity analysis for my annotated
+    single-cell or spatial data.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
