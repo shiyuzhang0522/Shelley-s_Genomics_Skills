@@ -1,0 +1,14 @@
+interface:
+  display_name: SpaCET to gsMap
+  short_description: Tumor deconvolution and validated gsMap input export
+  default_prompt: Use $spacet to analyze each tumor spatial sample and prepare validated
+    gsMap inputs.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

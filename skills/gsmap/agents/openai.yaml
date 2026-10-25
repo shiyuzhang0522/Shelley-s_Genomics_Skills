@@ -1,0 +1,13 @@
+interface:
+  display_name: gsMap
+  short_description: Spatial transcriptomics and GWAS integration
+  default_prompt: Use $gsmap to prepare and review a spatial GWAS analysis.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
