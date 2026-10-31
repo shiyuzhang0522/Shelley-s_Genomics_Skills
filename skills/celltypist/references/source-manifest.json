@@ -1,0 +1,30 @@
+{
+  "paper_doi": "10.1126/science.abl5197",
+  "sources": [
+    {
+      "name": "Cross-tissue-immune-cell-analysis-reveals-tissue-specific-features-in-humans.pdf",
+      "sha256": "03785940f0d7bb4a23a42a67dc320cb5ca0f1dca352d15fbaa97535b2a56fefd",
+      "bytes": 4388238
+    },
+    {
+      "name": "EMS144957-supplement-Supplementary_Materials.pdf",
+      "sha256": "23554381f8b79e01d16f1c48e51f50ce3cdd78d437e18d2a0cb715288a269904",
+      "bytes": 23896320
+    }
+  ],
+  "supplement_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7612735/supplementaryFiles",
+  "atlas_code_repository": "https://github.com/Teichlab/TissueImmuneCellAtlas",
+  "atlas_code_commit": "49a5441d71e7315eae77d433da702f5b52eb4403",
+  "atlas_notebook_checksums": {
+    "TICA_04_myeloid.ipynb": "72ccb67d82b38f41ebab1f4db28fb95fe3fbee6c084443e71e98110103b2e823",
+    "TICA_02_5prime_preprocessing.ipynb": "5c403d0d01a2c1cc7d04457656d2aacefba64543d13fc57e6a7082ca60d675e3",
+    "TICA_02_5prime_hashtagged_preprocessing.ipynb": "e9ad6e263eb84942f6b6debb6a34a6fad6c4f6eeb4e91d4646a3e86ccb3467cc",
+    "TICA_01_doublet_calling.ipynb": "ee8769d6a8b5b7240191834bbe0b7d6961bb33b19f872945826c46a574ad2172",
+    "TICA_03_integration.ipynb": "3cdd7dd1f87dd6561a50194d725dab71aef1b0ca07c27dbc8e7db03c5441da49",
+    "TICA_06_TILC_TCR.ipynb": "828e7fd750b5cefd3be0917093b1355a43909739c3b2f9e66a3a8c5f5900e556",
+    "TICA_06_TILC.ipynb": "b5b9124482f4bcb0b613c2361a7e505c17eb227c4d2ed480141e5ca074e0f0fc",
+    "TICA_02_3prime_hashtagged_preprocessing.ipynb": "719a4fa7fa7f277ea1d69958769c8e1e19cf592af239b702fa590435078bdf22",
+    "TICA_05_B.ipynb": "8b191547612cd1dac349a984c603f357f4ec77f2b0278a93161fee9ebc4e7870"
+  },
+  "atlas_scope": "Static notebook audit only; no atlas data execution or verified equality with Zenodo6334988."
+}

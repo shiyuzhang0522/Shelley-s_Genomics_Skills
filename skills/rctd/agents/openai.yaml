@@ -1,0 +1,13 @@
+interface:
+  display_name: RCTD
+  short_description: Plan, audit and interpret RCTD deconvolution
+  default_prompt: Use $rctd to plan and audit my spatial cell-type deconvolution.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

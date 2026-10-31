@@ -1,0 +1,14 @@
+interface:
+  display_name: CellTypist
+  short_description: Annotate cells and audit CellTypist analysis workflows
+  default_prompt: Use $celltypist to plan, run, or interpret cell annotation with
+    appropriate reference models and validation.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

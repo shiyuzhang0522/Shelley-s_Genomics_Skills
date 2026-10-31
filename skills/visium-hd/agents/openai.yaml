@@ -1,0 +1,14 @@
+interface:
+  display_name: Visium HD
+  short_description: Paper-grounded Visium HD analysis for three samples
+  default_prompt: Use $visium-hd to plan and audit my three-sample Visium HD analysis
+    against the CRC paper and source code.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

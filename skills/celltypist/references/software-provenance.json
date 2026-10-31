@@ -1,0 +1,109 @@
+{
+  "repository": "https://github.com/Teichlab/celltypist",
+  "commit": "fe357564a6625d3b1732a022fd39f18e55696e80",
+  "software_version": "1.7.1",
+  "inspected_date": "2026-10-29",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d1a086776c56a93ce09f1a82a42cd121a6acd0df256194d6a78db200cb951632"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "bad7ecb0ef7af29156c1156119607b4147ddf0ee34b13257986a8ad4cf58142c"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "1d54d272187d2dcf72e016b4d794565ee6aaccb7d49d4ab05ce0e626ce2de485"
+    },
+    {
+      "path": "setup.py",
+      "sha256": "9e12a8011da91b8dbd8f51420baacc79c354f613170c3b5bac22636c9440081c"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2703ac51a54fb519e99476f0b17d52b48522d54bb2186f3c1e66c3527a2ad4fc"
+    },
+    {
+      "path": "celltypist/__init__.py",
+      "sha256": "ba92e427897b05c0e7dcd104126ef792d4c794d952f4de0110a8930994a1d67d"
+    },
+    {
+      "path": "celltypist/train.py",
+      "sha256": "2c15d177f7b5a1b82e37aa6ec125f7c2ff709f823a0e71d054fb8766eeb1bff0"
+    },
+    {
+      "path": "celltypist/models.py",
+      "sha256": "8184182a3f55bba8eb5899d5f49c69b7df9e18488c1292240c7ca4efefe9da42"
+    },
+    {
+      "path": "celltypist/classifier.py",
+      "sha256": "79e44e71275c0ce002a081ae6b8449425dd96370f6a57767e17155ceba13e4f0"
+    },
+    {
+      "path": "celltypist/annotate.py",
+      "sha256": "29937a222a493ddcc66e5f083d72e602ff1ea5202adde07c8ac068fa9cfba171"
+    },
+    {
+      "path": "celltypist/command_line.py",
+      "sha256": "d47774d6a277c2ee65b2b0001b4d04ce447cae16a0b518345c362d95efe77eba"
+    },
+    {
+      "path": "docs/notebook/celltypist_tutorial_cv.ipynb",
+      "sha256": "78684889655cece873519fac5db8415cab494ed6bc730c572bc184a99c301b86"
+    }
+  ],
+  "test_report": {
+    "versions": {
+      "celltypist": "1.7.1",
+      "scanpy": "1.11.1",
+      "anndata": "0.11.4",
+      "sklearn": "1.5.2",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    },
+    "source_sha": "fe357564a6625d3b1732a022fd39f18e55696e80",
+    "tests": {
+      "LR": {
+        "held_out_synthetic_accuracy": 1.0,
+        "features": 28,
+        "prob_sum_min": 0.9442831003974077,
+        "prob_sum_max": 1.1635865693626744,
+        "save_reload": true,
+        "provided_cluster_voting": true,
+        "all_below_threshold_labels": [
+          "U"
+        ]
+      },
+      "SGD": {
+        "held_out_synthetic_accuracy": 1.0,
+        "features": 28,
+        "prob_sum_min": 0.9875142385553906,
+        "prob_sum_max": 1.0000007732333924,
+        "save_reload": true,
+        "provided_cluster_voting": true,
+        "all_below_threshold_labels": [
+          "U"
+        ]
+      },
+      "mini_batch": {
+        "held_out_synthetic_accuracy": 1.0,
+        "features": 27,
+        "prob_sum_min": 1.0,
+        "prob_sum_max": 1.9999996033927143,
+        "save_reload": true,
+        "provided_cluster_voting": true,
+        "all_below_threshold_labels": [
+          "U"
+        ]
+      }
+    },
+    "scope": "Synthetic implementation smoke test only; no real biological accuracy benchmark; automatic Leiden graph and downloaded public models not tested."
+  },
+  "additional_tests": {
+    "CLI_local_model_supplied_clusters": "PASS; output directory must exist",
+    "probability_mask_unknown_label_repair": "PASS",
+    "sklearn_1_8_LogisticRegression_multi_class_constructor": "FAIL expected TypeError, incompatible with source call"
+  },
+  "scope": "Static official source/docs audit and synthetic CPU smoke tests. No pretrained public model downloaded, no real data benchmark, no automatic Leiden graph/GPU/Visium HD execution. Original source not changed."
+}

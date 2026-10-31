@@ -56,8 +56,47 @@ Skills for spatial transcriptomics and complementary single-cell analyses.
 
 [View skill →](skills/nichenetr/SKILL.md)
 
+### 6️⃣ Visium HD
+
+**Aim:** Plan and audit Visium HD analysis, including bin-level annotation, RCTD, nuclear aggregation and spatial neighborhoods, with explicit checks when adapting the published CRC workflow to melanoma.
+
+**Usage:** Provide raw counts, bin or segmentation details, coordinates, histology and sample/patient metadata.
+
+> Use $visium-hd to plan annotation and spatial analysis for my sections, distinguishing published settings from adaptations.
+
+[View skill →](skills/visium-hd/SKILL.md)
+
+### 7️⃣ CellTypist
+
+**Aim:** Annotate cell types using reference models, assess majority voting and uncertainty, and train custom models with independent-donor validation.
+
+**Usage:** Provide expression data, its normalization state, observation type and reference/model information.
+
+> Use $celltypist to check my model coverage, annotate cells and evaluate uncertain or missing identities.
+
+[View skill →](skills/celltypist/SKILL.md)
+
+### 8️⃣ RCTD
+
+**Aim:** Estimate cell-type RNA contributions from spatial mixtures, choose doublet/full/multi mode, and audit reference coverage, confidence and implementation differences.
+
+**Usage:** Provide raw spatial counts, coordinates, a labeled single-cell reference and the installed spacexr version.
+
+> Use $rctd to select an appropriate mode, prepare my reference and interpret RNA fractions and uncertain assignments.
+
+[View skill →](skills/rctd/SKILL.md)
+
+## Supporting skills and installed inventory
+
+[Paper2Agent](https://github.com/shiyuzhang0522/Agent-Skill-Paper2Agent) supports paper/code review and skill construction. The imported [Google DeepMind science-skills](https://github.com/google-deepmind/science-skills) collection provides database, literature and molecular-analysis tools.
+
+[Installed-skill inventory →](docs/installed-skills.md) records all **48 installed personal skills** checked on **31 October 2026**: eight hosted here and 40 referenced externally. Managed app/plugin skills are outside this personal-skill inventory.
+
 ---
 
 **Getting started:** Add the relevant folder from `skills/` to your agent's supported skills directory, preserving its contents, then invoke it as shown above. Required software and datasets must be installed separately.
 
 Sources, validation details, and limitations are documented within each skill.
+
+
+The three new public editions include authored guidance and supporting code with links to original papers; converted full-text papers and figure/page images are not redistributed. Source-specific licenses and validation limits remain documented within each skill.

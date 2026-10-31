@@ -1,0 +1,32 @@
+{
+  "github_commit": "df5801cf5e681b33b5026626989a7635fdf26b99",
+  "zenodo_doi": "10.5281/zenodo.15042463",
+  "zenodo_archive_md5": "bde1f1a374511923af4b98aa58bec421",
+  "paper_sha256": "e3d998e9bcd1399b1e2cab5722714786f02cb8c5407b4c4f8a6913566e95319f",
+  "snapshot_sha256": {
+    "LICENSE.md": "a7e682560287cccff940a319cfdfd84695d937b4c5366df5ea1acf710776f668",
+    "Team": "8e4abed02e62439caf95933d06dbec48cf9e1a59979112d994526db0a89bbc36",
+    "README.md": "51ac44cce269cab963337f4a50fcc940f7ed20fb11485349bfc879aeb429ae15",
+    "Methods/environment_nucleisegmentation.yml": "59ac6e523373080dea10377661f608df15a461e670e13d772b512f90af496a1f",
+    "Methods/NucleiSegmentation.py": "1a1b5284a6a2e9fb24b29a4718c62b979cfc5604059ff6ad34bea5c8baaf0730",
+    "Methods/FlexSingleCell.R": "034e0c275d662e5007190ab2d909e5a0081d091209a962c18bcf207e4c91c172",
+    "Methods/Deconvolution.R": "4e5a15ce53bcf0e30080225ba0cde5e01499552edd337297ad83b9b39590b33f",
+    "Methods/AuxFunctions.R": "e0090f12a39f9602adfe53350e576c9d8cf88649b08f783f1802d39aea498ac7",
+    "Figures/SupplementalFigure_10.R": "0ae1d2b25deaa865692dd3ff306ae62f008bb0211fcb3590c6a1ea0330340d82",
+    "Figures/SupplementalFigure_3.R": "a270ab9fd0478330104893b2d71e8bc62e89cc2a41b7712e6e81235e78fa4443",
+    "Figures/SupplementalFigure_6.R": "b1ab01312d5dc1c2dbe6159f962b679012cb25ff1dff9208a9293cf033f21084",
+    "Figures/SupplementalFigure_5.R": "e8c9e42815cd2c5f3b230ad16bc4269b494020bebca8e746dfff049fb4b62f9e",
+    "Figures/SupplementalFigure_8.R": "f81468b4cac046d97f1797a6e918cb3d13a0cf2a37d695f0d9bfea2292a0aadb",
+    "Figures/SupplementalFigure_9.R": "03f11f0e089c5203ca252be063205e5624877ef46b5cd947caea0ab579286207",
+    "Figures/SupplementalFigure_7.R": "3152b56794b09d7bba44ea771aee193ac0c64015a8822c17ce76017d773cf511",
+    "Figures/Figure_2d.R": "ce4c9bd5e36732f4d5c6bdf65bd9019033a2a4f1558baa5b037964d9fa029f43",
+    "Figures/SupplementalFigure_1.R": "5de6da377d54e6941de4e3d69c30496519ea0032e24d9b7a13392f28c73cb0b9",
+    "Figures/Figure_7.R": "50aa04b8fa601e56c4fb8b205bdfb06d3c2698d787504a30393aa446017c4029",
+    "Figures/Figure_5.R": "5d513423dcb8d8b1fbc015c9d5f8774562248535523a0acc064f0886b75010c1",
+    "Figures/Figure_6.R": "66b246701770546c230eadfe8f53d13e48d9302830401d2014aa3cbc68086c70",
+    "Figures/Figure_4.R": "92413b193cf2bfbcabafdbe2cbed88927fcbe0c4ecf953a7920d3f52c04cc4e5",
+    "Figures/Figure_3.R": "ee3150c35f5e282baaa36f232e130e04dcb3eed7c869a26cfe927cfa147818ca",
+    "Figures/SupplementalFigure_4.R": "fb6fc2e92a36e4ce3ed8b5b236b3c6500cdfe7320dcfa595286f5dee2a904c12"
+  },
+  "presentation_change": "README image link redirected to immutable original GitHub image; image omitted from installation to reduce package size. Analysis scripts unchanged."
+}
